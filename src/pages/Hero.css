@@ -167,6 +167,18 @@
     border-radius: 22em;
     color: white;
 }
+.icon-arrow{
+    font-size:1.7em;
+}
+
+.black-div{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    margin-top: 0.7em;
+    border-radius: 0.6em;
+    border: 0.35em gray solid;
+}
 @media(max-width:1200px){
     .first-section{
         width: auto;

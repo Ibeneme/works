@@ -106,7 +106,7 @@ const Hero = () => {
            </div>
       <div className='section-featured-works'>
       <br />
-            <br />
+          
             <br />
             <br />
         <div className='section-featured-works-div'>
@@ -173,8 +173,21 @@ const Hero = () => {
         </div>
         
     </div>
+
+    <br />
+          
+            <br />
     <div className='coding-div'>
-    <h1> Projects I wrote codes for</h1>
+
+    <div className='section-featured-works-div'>
+           
+           <h3>Projects I wrote codes for
+               <FiArrowDownCircle 
+               style={{fontSize: '1.3em', marginLeft:'0.3em'}} /></h3>
+       </div>
+
+        
+       <br />
     <a href='https://shoppermans-ecommerce-react-store.vercel.app'>
         <div className='black-div'>
             <div>
@@ -192,6 +205,7 @@ const Hero = () => {
                     backgroundColor: '#ffffff45',
                     padding:"0.6em 01.2em",
                     borderRadius:"22em",
+                    width: 'fit-content'
                 }}> View Site<BsFillArrowUpRightCircleFill className='icon-arrow' /></p>
             </div>
         </div>
@@ -206,6 +220,7 @@ const Hero = () => {
             <div>
                 <p
                 style={{
+                    width: 'fit-content',
                     alignItems:'center',
                     display:'flex',
                     flexDirection:'row',
@@ -228,6 +243,7 @@ const Hero = () => {
             <div>
                 <p
                 style={{
+                    width: 'fit-content',
                     alignItems:'center',
                     display:'flex',
                     flexDirection:'row',
