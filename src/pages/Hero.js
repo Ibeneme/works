@@ -20,6 +20,8 @@ import kiko from './images/kiko llc.png'
 import svg from './images/hydra-web.png'
 import Alphabetz from './images/alphab.png'
 import image from './images/hydra-mobile.png'
+import profile from './images/newwww.png'
+
 
 
 const Hero = () => {
@@ -270,9 +272,9 @@ const Hero = () => {
             View My Resume
         </button>
         <br />
-       {/* <img 
+        <img 
        className="img-auto"
-       src={profile} alt='profile'/> */}
+       src={profile} alt='profile'/> 
 
   
        <br />
@@ -335,7 +337,8 @@ const Hero = () => {
 
 
         <a href='Mailto:Ibenemeikenna2021@gmail.com'>
-       <div className='details-me blackkk'>
+       <div 
+       style={{color:'white'}} className='details-me blackkk'>
         <h4>
         <MdEmail  className='icon-arrow'/>
          Send me a Mail</h4>
@@ -400,8 +403,9 @@ const Hero = () => {
     </div> */}
     <div>
         
-       <div className='details-me blackk'>
-                <h4>
+       <div  style={{color:'white'}}
+       className='details-me blackk'>
+                <h4  className='details-meh'>
                     Website Built by Ibeneme Ikenna
                 </h4>
                 <h5>@2023 ibeneme.netlify.com</h5>
