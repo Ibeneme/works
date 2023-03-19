@@ -410,10 +410,10 @@ const Hero = () => {
          backgroundColor:'black',
          color:'white'}}
        className='details-me blackk'>
-                <h4  className='details-meh'>
+                <h5  className='details-meh'>
                     Website Built by Ibeneme Ikenna
-                </h4>
-                <h5>@2023 ibeneme.netlify.com</h5>
+                </h5>
+                <h6>@2023 ibeneme.netlify.com</h6>
                 <div>
                 <a href='https://github.com/Ibeneme'>
                     <BsGithub  className='icon-arrow' />
