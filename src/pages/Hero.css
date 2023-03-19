@@ -192,6 +192,12 @@
 }
 .icon-arrow{
     font-size:1.7em;
+    margin-left: 0.5em;
+    
+}
+
+.icon-arrows{
+    font-size:1.7em;
     margin-left: 0.2em;
     margin-right: 0.6em;
 }
@@ -234,6 +240,7 @@ a{
 .details-me{
     color: black;
     display: flex;
+    background: #fff;
     justify-content: space-between;
     align-items: center;
     border: 0.2em solid black;
@@ -363,5 +370,15 @@ a{
     }
     .works-on-span>p{
         font-size: 1.3em;
+    }
+
+    .btn-cv{
+        background-color: black;
+        color: white;
+        padding: 1em 4em;
+        border: none;
+        width: 100%;
+        margin-top: 1em;
+        font-size: 1.1em;
     }
 }

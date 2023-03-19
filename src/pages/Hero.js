@@ -277,16 +277,20 @@ const Hero = () => {
        src={profile} alt='profile'/> 
 
   
-       <br />
+  
+    </div>
+<div>
+
+<br />
        <h3>Let's Connect</h3>
        
        <a href='https://twitter.com/ibeneme_ikenna'>
        <div className='details-me'>
         <h4>
-        <AiFillTwitterCircle className='icon-arrow'/>
+        <AiFillTwitterCircle className='icon-arrows'/>
          Let's meet at Twitter</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
@@ -294,10 +298,10 @@ const Hero = () => {
         <a href='https://www.linkedin.com/in/ibeneme'>
        <div className='details-me'>
         <h4>
-        <BsLinkedin  className='icon-arrow'/>
+        <BsLinkedin  className='icon-arrows'/>
          Bing me on LinkedIn</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
@@ -305,10 +309,10 @@ const Hero = () => {
        <a href='https://www.buymeacoffee.com/ibenemeikenna'>
        <div className='details-me'>
         <h4>
-        <SiBuymeacoffee  className='icon-arrow'/>
+        <SiBuymeacoffee  className='icon-arrows'/>
          Buy Me a Coffee</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
@@ -316,10 +320,10 @@ const Hero = () => {
         <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
        <div className='details-me'>
         <h4>
-        <RxNotionLogo className='icon-arrow'/>
+        <RxNotionLogo className='icon-arrows'/>
          View Notion</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
@@ -327,10 +331,10 @@ const Hero = () => {
         <a href='https://github.com/Ibeneme'>
        <div className='details-me'>
         <h4>
-        <BsGithub  className='icon-arrow'/>
+        <BsGithub  className='icon-arrows'/>
          View my Github</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
@@ -338,27 +342,26 @@ const Hero = () => {
 
         <a href='Mailto:Ibenemeikenna2021@gmail.com'>
        <div 
-       style={{color:'white'}} className='details-me blackkk'>
+       style={{color:'white', backgroundColor:'black'}} className='details-me blackkk'>
         <h4>
-        <MdEmail  className='icon-arrow'/>
+        <MdEmail  className='icon-arrows'/>
          Send me a Mail</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
         <a href='https://wa.link/70sz29'>
        <div className='details-me'>
         <h4>
-        <IoLogoWhatsapp className='icon-arrow'/>
-         Let's Connect on WhatsApp</h4>
+        <IoLogoWhatsapp className='icon-arrows'/>
+         LWhatsApp</h4>
        <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrow' />
+       <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
-    </div>
-
+</div>
     <br /> 
     <div>
        
@@ -403,7 +406,9 @@ const Hero = () => {
     </div> */}
     <div>
         
-       <div  style={{color:'white'}}
+       <div  style={{
+         backgroundColor:'black',
+         color:'white'}}
        className='details-me blackk'>
                 <h4  className='details-meh'>
                     Website Built by Ibeneme Ikenna
