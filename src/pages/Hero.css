@@ -101,10 +101,9 @@
     grid-template-columns: auto auto;
 }
 .section-image-and-content{
-    background-color: #fff;
-    margin-top: 1em;
+    background-color: #ffffffa1;
     border-radius: 0.8em;
-    padding: 1em;
+    padding: 2em;
 }
 .section-featured-works-div{
     background-color: black;
@@ -121,6 +120,49 @@
     justify-content: space-around;
     gap: 0.7em;
 }
+
+.section-imge{
+    width: 100%;
+   
+}
+.section-works{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 1.4em;
+    margin-top: 1em;
+
+}
+.section-works-contents-h4{
+    background-color: purple;
+    padding:0.4em 1em;
+    width: fit-content;
+    border-radius: 22em;
+    color: white;
+}
+.section-works-contents-orange{
+    background-color: orange;
+    padding:0.4em 1em;
+    width: fit-content;
+    border-radius: 22em;
+    color: white;
+}
+.section-works-contents-light{
+    background-color: rgb(12, 107, 166);
+    padding:0.4em 1em;
+    width: fit-content;
+    border-radius: 22em;
+    color: white;
+}
+
+
+.section-works-contents-blue{
+    background-color:crimson;
+    padding:0.4em 1em;
+    width: fit-content;
+    border-radius: 22em;
+    color: white;
+}
 @media(max-width:1200px){
     .first-section{
         width: auto;
@@ -130,6 +172,14 @@
         background-color: #f4f4f4;
         height: auto;
         margin: 0;
+    }
+    .section-works{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        gap: 1.4em;
+        margin-top: 1em;
+    
     }
     
     .hero-section-div{
@@ -161,7 +211,14 @@
         background-color: #f4f4f4;
         height: auto;
     }
+     .section-works{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-between;
+        gap: 1.4em;
+        margin-top: 1em;
     
+    }
     .hero-section-div{
         background-color: #fff;
         padding: 0em;

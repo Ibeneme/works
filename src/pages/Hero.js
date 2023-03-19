@@ -16,7 +16,10 @@ import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
  import {FiArrowDownCircle} from 'react-icons/fi' 
   import Figma from './images/Figma.png'
 import {FaLocationArrow} from 'react-icons/fa' 
-
+import kiko from './images/kiko llc.png'
+import svg from './images/hydra-web.png'
+import Alphabetz from './images/alphab.png'
+import image from './images/hydra-mobile.png'
 
 
 const Hero = () => {
@@ -105,32 +108,32 @@ const Hero = () => {
         <div className='section-featured-works-div'>
             <h3>Featured Design Projects 
                 <FiArrowDownCircle 
-                style={{fontSize: '1.3em'}} /></h3>
+                style={{fontSize: '1.3em', marginLeft:'0.3em'}} /></h3>
         </div>
         <div className='section-works'>
             <div className='section-image-and-content'
            >
-                {/* <img className='section-imge' src={image} alt='svg'/>
-                 */}
+                <img className='section-imge' src={image} alt='svg'/>
+                
                 <div className='section-works-contents'>
-                    <h4>Hydra App (Mobile App)</h4>
+                    <h4 className="section-works-contents-orange">Hydra Mobile App</h4>
                  
                 </div>
             </div>
             <div
              className='section-image-and-content'>
-                {/* <img className='section-imge' src={svg} alt='svg'/> */}
+                <img className='section-imge' src={svg} alt='svg'/>
                 <div className='section-works-contents'>
-                    <h4>Hydra App (Desktop App)</h4>
+                    <h4 className="section-works-contents-h4">Hydra Desktop App</h4>
                  
                 </div>
             </div>
             <div className='section-image-and-content'
             
             >
-                {/* <img className='section-imge' src={kiko} alt='svg'/> */}
+                <img className='section-imge' src={kiko} alt='svg'/> 
                 <div className='section-works-contents'>
-                    <h4>Kiko LLC Mobile App</h4>
+                    <h4 className="section-works-contents-blue">Kiko LLC Mobile App</h4>
                  
                 </div>
             </div>
@@ -138,10 +141,10 @@ const Hero = () => {
 
             <div className='section-image-and-content'
             >
-                {/* <img className='section-imge' src={Alphabetz} alt='svg'/>
-                 */}
+                <img className='section-imge' src={Alphabetz} alt='svg'/>
+                 
                 <div className='section-works-contents'>
-                <h4>Alphabetz Resume Generator</h4>
+                <h4 className="section-works-contents-light">Alphabetz Resume Generator</h4>
 
                  
                 </div>
