@@ -105,7 +105,12 @@ const Hero = () => {
 
            </div>
       <div className='section-featured-works'>
+      <br />
+            <br />
+            <br />
+            <br />
         <div className='section-featured-works-div'>
+           
             <h3>Featured Design Projects 
                 <FiArrowDownCircle 
                 style={{fontSize: '1.3em', marginLeft:'0.3em'}} /></h3>

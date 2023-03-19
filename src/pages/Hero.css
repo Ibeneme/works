@@ -101,9 +101,11 @@
     grid-template-columns: auto auto;
 }
 .section-image-and-content{
-    background-color: #ffffffa1;
+    background-color: #ffffffaf;
     border-radius: 0.8em;
     padding: 2em;
+    margin-top: 1em;
+    border: 0.2em solid gray;
 }
 .section-featured-works-div{
     background-color: black;
@@ -123,6 +125,8 @@
 
 .section-imge{
     width: 100%;
+    border-radius: 1em;
+
    
 }
 .section-works{
