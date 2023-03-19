@@ -1,7 +1,7 @@
 import React from "react";
  import "./Hero.css";
  import {SiBuymeacoffee} from 'react-icons/si'
-import {IoLogoWhatsapp} from 'react-icons/io'
+// import {IoLogoWhatsapp} from 'react-icons/io'
 import {MdEmail} from 'react-icons/md'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {RxNotionLogo} from 'react-icons/rx'
@@ -283,7 +283,7 @@ const Hero = () => {
 
 <br />
        <h3>Let's Connect</h3>
-       
+{/*        
        <a href='https://twitter.com/ibeneme_ikenna'>
        <div className='details-me'>
         <h4>
@@ -304,7 +304,7 @@ const Hero = () => {
        <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
-        </a>
+        </a> */}
 
        <a href='https://www.buymeacoffee.com/ibenemeikenna'>
        <div className='details-me'>
@@ -351,17 +351,17 @@ const Hero = () => {
       
         </span>  </div>
         </a>
-        <a href='https://wa.link/70sz29'>
+        {/* <a href='https://wa.link/70sz29'>
        <div className='details-me'>
         <h4>
         <IoLogoWhatsapp className='icon-arrows'/>
-         LWhatsApp</h4>
+         WhatsApp</h4>
        <span> 
        <BsFillArrowUpRightCircleFill className='icon-arrows' />
       
         </span>  </div>
         </a>
-</div>
+ */}</div>
     <br /> 
     <div>
        
