@@ -30,10 +30,10 @@
     margin-top: 1em;
     margin-bottom: 2em;
     width:fit-content;
-    background-color: black;
+    background-color: white;
     border: 0.09em white solid;
-    border-radius: 3em ;
-    color: white;
+    border-radius: 0.8em ;
+    color: black;
     padding: 1.4em 4em;
 }
 .left-flex-hero{
@@ -87,5 +87,15 @@
         background-color: #fff;
         padding: 0em;
     } 
-    
+    .button-resume{
+        margin-top: 1em;
+        margin-bottom: 2em;
+        width:fit-content;
+        background-color: white;
+        border: 0.09em white solid;
+        border-radius: 0.8em ;
+        color: black;
+        padding: 1.4em 6em;
+        font-size: 1em;
+    }
 }
