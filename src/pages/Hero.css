@@ -118,6 +118,7 @@
 .section-featured-works-div>h3{
     align-items: center;
     display: flex;
+    justify-content: space-around;
     gap: 0.7em;
 }
 @media(max-width:1200px){
@@ -185,7 +186,7 @@
         width: auto;
         padding: 1.3em;
         color: white;
-        height: 80vh;
+        height: 75vh;
         border-radius: 0.8em;
         display: flex;
         flex-direction: column;
@@ -204,5 +205,15 @@
     .works-on>img{
         width: 2em;
         height: 2em;
+    }
+    .ikenna{
+        background-color: orangered;
+        padding: 0.3em 1.4em;
+        width: fit-content;
+        border-radius: 23em;
+        font-size: 1.2em;
+    }
+    .works-on-span>p{
+        font-size: 1.3em;
     }
 }
