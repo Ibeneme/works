@@ -3,15 +3,60 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    padding: 5em 8em;
+    padding: 1.7em 8em;
     background-color: #f4f4f4;
-    height: auto;
-    
+    height: auto; 
 }
 
+        
+.works-on{
+    margin-top: 0.9em;
+    background-color: #fff;
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8em;
+}
+
+.works-on>img{
+    width: 2.7em;
+    height: 2.7em;
+}
+.works-on-span{
+    display: flex;
+    font-size: 0.8em;
+ 
+}
+.works-on-span>p{
+    background-color: orangered;
+    padding:0.3em 0.7em;
+    color: white;
+}
+.navbar-div{
+    background-color: black;
+    color: white;
+    width:auto;
+    padding: 0.5em 1.3em;
+
+    margin-bottom: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.ikenna{
+    background-color: orangered;
+    padding: 0.3em 1.4em;
+    width: fit-content;
+    border-radius: 23em;
+}
 .hero-section-div{
     background-color: #fff;
     padding: 2em;
+    margin-top: 6em;
     border-radius: 1.8em;
 }
 .curves{
@@ -22,7 +67,7 @@
     margin-bottom: 15em;
 }
 .name>h1{
-    font-size: 2.2em;
+    font-size: 2.0em;
     margin-bottom: -0.4em;
 }
 
@@ -55,22 +100,55 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-
-
+.section-image-and-content{
+    background-color: #fff;
+    margin-top: 1em;
+    border-radius: 0.8em;
+    padding: 1em;
+}
+.section-featured-works-div{
+    background-color: black;
+    color: white;
+    margin-top: 4em;
+    width: fit-content;
+    padding: 0.08em 02em;
+    border-radius: 0.3em;
+   
+}
+.section-featured-works-div>h3{
+    align-items: center;
+    display: flex;
+    gap: 0.7em;
+}
 @media(max-width:1200px){
     .first-section{
         width: auto;
         display: flex;
         flex-direction: column;
-        padding: 5em 4em;
+        padding: 1.5em 4em;
         background-color: #f4f4f4;
         height: auto;
+        margin: 0;
     }
     
     .hero-section-div{
         background-color: #fff;
         padding: 2em;
     } 
+    .works-on{
+        margin-top: 0.9em;
+        background-color: #fff;
+        padding: 2em;
+        display: flex;
+        gap: 1.5em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .works-on>img{
+        width: 2.7em;
+        height: 2.7em;
+    }
 }
 
 @media(max-width:800px){
@@ -78,7 +156,7 @@
         width: auto;
         display: flex;
         flex-direction: column;
-        padding: 4em 1em;
+        padding: 1em 1em;
         background-color: #f4f4f4;
         height: auto;
     }
@@ -97,5 +175,34 @@
         color: black;
         padding: 1.4em 6em;
         font-size: 1em;
+    }
+
+    .left-flex-hero{
+        background-image: url('./images/WhatsApp\ Image\ 2023-03-18\ at\ 11.16\ 1.png') ;
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        width: auto;
+        padding: 1.3em;
+        color: white;
+        height: 80vh;
+        border-radius: 0.8em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .works-on{
+        margin-top: 0.9em;
+        background-color: #fff;
+        padding: 1.4em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .works-on>img{
+        width: 2em;
+        height: 2em;
     }
 }
