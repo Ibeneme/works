@@ -1,5 +1,6 @@
 import React from "react";
  import "./Hero.css";
+ 
 // import {MdDashboard} from 'react-icons/md'
 // // import Xd from './images/Adobe XD.svg'
 // import CSS from './images/CSS3.png'
@@ -13,6 +14,7 @@ import React from "react";
 
 
 const Hero = () => {
+         
   return (
     <section className="first-section">
       {/* <nav className="navbar-div">
@@ -76,6 +78,68 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
+      <div className='section-featured-works'>
+        <div>
+            <h1>Featured Design Projects</h1>
+        </div>
+        <div className='section-works'>
+            <div className='section-image-and-content'
+           >
+                {/* <img className='section-imge' src={image} alt='svg'/>
+                 */}
+                <div className='section-works-contents'>
+                    <h4>Hydra App (Mobile App)</h4>
+                 
+                </div>
+            </div>
+            <div
+             className='section-image-and-content'>
+                {/* <img className='section-imge' src={svg} alt='svg'/> */}
+                <div className='section-works-contents'>
+                    <h4>Hydra App (Desktop App)</h4>
+                 
+                </div>
+            </div>
+            <div className='section-image-and-content'
+            
+            >
+                {/* <img className='section-imge' src={kiko} alt='svg'/> */}
+                <div className='section-works-contents'>
+                    <h4>Kiko LLC Mobile App</h4>
+                 
+                </div>
+            </div>
+
+
+            <div className='section-image-and-content'
+            >
+                {/* <img className='section-imge' src={Alphabetz} alt='svg'/>
+                 */}
+                <div className='section-works-contents'>
+                <h4>Alphabetz Resume Generator</h4>
+
+                 
+                </div>
+            </div>
+            {/* <div className='section-image-and-content'
+             onClick={(e)=>{navigate('/nft')}}>
+                <img className='section-imge' src={Fleetar} alt='svg'/>
+                <div className='section-works-contents'>
+                <h4>Fleetar NFT landing Page</h4>
+                 
+                </div>
+            </div>
+            <div className='section-image-and-content'
+             onClick={(e)=>{navigate('/crm')}}>
+                <img className='section-imge black' src={Notion} alt='svg'/>
+                <div className='section-works-contents '>
+                    <h4>The Bird NFT App</h4>
+                 
+                </div>
+            </div> */}
+        </div>
+        
+    </div>
     </section>
   );
 };
