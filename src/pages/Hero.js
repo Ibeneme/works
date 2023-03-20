@@ -208,7 +208,7 @@ const Hero = () => {
         
         <h3>
           <ImBehance2 />
-          View More Projects on Behance
+          View More  on Behance
           <BsArrowUpRightCircle
             style={{
               fontSize: "1.3em",
@@ -232,7 +232,7 @@ const Hero = () => {
     
         <h3>
           <SiNotion />
-          View More Projects on Notion
+          View More  on Notion
           <BsArrowUpRightCircle
             style={{
               fontSize: "1.3em",
@@ -251,7 +251,7 @@ const Hero = () => {
       <div className="coding-div">
         {/* <div className='section-featured-works-div'>
            
-           <h3>Projects I wrote codes for
+           <h3> I wrote codes for
                <FiArrowDownCircle 
                style={{fontSize: '1.3em', marginLeft:'0.3em'}} /></h3>
        </div>
