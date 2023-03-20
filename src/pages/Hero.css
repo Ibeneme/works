@@ -236,7 +236,7 @@
 }
 
 .img-auto{
-    margin-top: 2em;
+  
     width: 100%;
     
 }
@@ -311,7 +311,7 @@ a{
         justify-content: center;
     }
     .img-auto{
-        margin-top: 2em;
+      
         width: 100%;
         display: flex;
     }
@@ -349,7 +349,7 @@ a{
     .white{
         background-color: white;
         color: black;
-        padding: 2em 1.6em;
+        padding: 1.6em 1.6em;
         margin-top: 0.7em;
         border-radius: 0.6em;
         border: none;
@@ -366,7 +366,7 @@ a{
         font-size: 1em;
     }
     .img-auto{
-        margin-top: 2em;
+   
         width: 100%;
         display: flex;
     }

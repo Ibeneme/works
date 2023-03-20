@@ -208,8 +208,8 @@ const Hero = () => {
         
         <h3>
           <ImBehance2 
-          style={{marginRight:'0.3em'}}/>
-          View More  on Behance
+          style={{marginRight:'0.7em'}}/>
+         Behance Portfolio
           <BsArrowUpRightCircle
             style={{
               fontSize: "1.3em",
@@ -232,8 +232,9 @@ const Hero = () => {
           <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
     
         <h3>
-          <SiNotion />
-          View More  on Notion
+          <SiNotion
+          style={{marginRight:'0.7em'}} />
+         Notion Portfolio
           <BsArrowUpRightCircle
             style={{
               fontSize: "1.3em",
@@ -328,8 +329,7 @@ const Hero = () => {
         </div>
     </a> */}
         <br /> <br />
-        <div className="black-div white">
-          <h1>About Me</h1>
+        <h1>About Me</h1>
           <p style={{ marginTop: "-1em" }}>
             I’m Ibeneme Ikenna Kenneth, a creative Product Designer &
             Collaborative Frontend Developer, Passionate about building and
@@ -364,6 +364,8 @@ const Hero = () => {
           <button className="btn-cv">View My Resume</button>
           <br />
           <br />
+        <div className="black-div white">
+       
           <img className="img-auto" src={profile} alt="profile" />
         </div>
         <div>
