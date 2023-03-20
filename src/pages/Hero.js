@@ -139,7 +139,8 @@ const Hero = () => {
             <img className="section-imge" src={image} alt="svg" />
 
             <div className="section-works-contents">
-              <h4 className="section-works-contents-orange">
+              <h4
+              style={{marginBottom:'-0.7em'}}>
                 Hydra Mobile App
               </h4>
               <p>A decentralized Social media mobile app,
@@ -153,7 +154,7 @@ const Hero = () => {
           >
             <img className="section-imge" src={svg} alt="svg" />
             <div className="section-works-contents">
-              <h4 className="section-works-contents-h4">Hydra Desktop App</h4>
+              <h4 style={{marginBottom:'-0.7em'}}>Hydra Desktop App</h4>
               <p>A decentralized Social media website,
                 that enables users to earn while interacting
                 with one another </p>
@@ -165,7 +166,7 @@ const Hero = () => {
           >
             <img className="section-imge" src={kiko} alt="svg" />
             <div className="section-works-contents">
-              <h4 className="section-works-contents-blue">
+              <h4 style={{marginBottom:'-0.7em'}}>
                 Kiko LLC Mobile App
               </h4>
               <p>A software where users can find influencers for their products, projects, skits, events and more </p>
@@ -180,7 +181,7 @@ const Hero = () => {
 
             <div className="section-works-contents">
               
-              <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
+              <h4 style={{marginBottom:'-0.7em'}}>Alphabetz Mobile</h4>
                <p>Designs for a mobile application that enables users generate a resume, style a resume or use custom editable resume for free</p>
             </div>
           </div>
