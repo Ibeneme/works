@@ -124,7 +124,12 @@
     justify-content: space-around;
     gap: 0.7em;
 }
-
+.section-featured-works-div>a>h3{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.7em;
+}
 .section-imge{
     width: 100%;
     border-radius: 1em;
@@ -344,7 +349,7 @@ a{
     .white{
         background-color: white;
         color: black;
-        padding: 3em 1.6em;
+        padding: 2em 1.6em;
         margin-top: 0.7em;
         border-radius: 0.6em;
         border: none;

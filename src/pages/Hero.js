@@ -1,13 +1,14 @@
 import React from "react";
- import "./Hero.css";
- import {SiBuymeacoffee} from 'react-icons/si'
+import "./Hero.css";
+import { SiBuymeacoffee, SiNotion } from "react-icons/si";
 // import {IoLogoWhatsapp} from 'react-icons/io'
-import {MdEmail} from 'react-icons/md'
-import {AiFillTwitterCircle} from 'react-icons/ai'
-import {RxNotionLogo} from 'react-icons/rx'
-import {BsGithub, BsLinkedin} from 'react-icons/bs'
-import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
-import notion from './images/logos_notion-icon.png'
+import { MdEmail } from "react-icons/md";
+import { AiFillTwitterCircle,  } from "react-icons/ai";
+import { RxNotionLogo } from "react-icons/rx";
+import { BsGithub, BsLinkedin, BsArrowUpRightCircle } from "react-icons/bs";
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
+import { ImBehance2 } from "react-icons/im";
+// import notion from './images/logos_notion-icon.png'
 //  import {MdDashboard} from 'react-icons/md'
 
 //  import CSS from './images/CSS3.png'
@@ -15,48 +16,46 @@ import notion from './images/logos_notion-icon.png'
 //  import js from './images/JavaScript.png'
 //   import ReactJs from './images/React.png'
 
-
- import {FiArrowDownCircle} from 'react-icons/fi' 
-  import Figma from './images/Figma.png'
-import {FaLocationArrow} from 'react-icons/fa' 
-import kiko from './images/kiko llc.png'
-import svg from './images/hydra-web.png'
-import Alphabetz from './images/alphab.png'
-import image from './images/hydra-mobile.png'
-import profile from './images/newwww.png'
-
-import gf from './images/Google Forms.png'
-import gd from './images/Google Docs.png'
+import { FiArrowDownCircle } from "react-icons/fi";
+import Figma from "./images/Figma.png";
+import { FaLocationArrow } from "react-icons/fa";
+import kiko from "./images/kiko llc.png";
+import svg from "./images/hydra-web.png";
+import Alphabetz from "./images/alphab.png";
+import image from "./images/hydra-mobile.png";
+import profile from "./images/newwww.png";
+// import not from './images/notion.png'
+// import BETT from './images/bEHANCE.png'
+import gf from "./images/Google Forms.png";
+import gd from "./images/Google Docs.png";
 // import aa from './images/Adobe Animate.png'
 // import ap from './images/Adobe Photoshop.png'
-import xd from './images/Adobe XD.png'
-
-
-
+import xd from "./images/Adobe XD.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-         
+  let navigate = useNavigate();
   return (
     <section className="first-section">
-     <nav className="navbar-div">
-       <h4 className="ikenna">Ibeneme </h4> 
+      <nav className="navbar-div">
+        <h4 className="ikenna">Ibeneme </h4>
         {/* <h4 className="first-sliddo">My Resume</h4>*/}
-      </nav> 
-
+      </nav>
 
       <div className="hero-section-div">
-
         <div className="left-flex-hero">
-            <div className="curves">
-                <span>Creative & Problem Solving</span>
-            </div>
-            <div className="name">
-                <h1>I'm Ikenna Ibeneme</h1>
-                <p>Product Designer
-                   I design beautiful User interfaces for best of User experience</p>
-                <button className="button-resume">View my Resume</button>
-            </div>
-             </div>
+          <div className="curves">
+            <span>Creative & Problem Solving</span>
+          </div>
+          <div className="name">
+            <h1>I'm Ikenna Ibeneme</h1>
+            <p>
+              Product Designer I design beautiful User interfaces for best of
+              User experience
+            </p>
+            <button className="button-resume">View my Resume</button>
+          </div>
+        </div>
 
         {/* <div className="second-side-div">
 
@@ -98,125 +97,85 @@ const Hero = () => {
             </div>
           </div>
         </div> */}
-      
       </div>
       <div className="works-on">
         <span className="works-on-span">
-            <p>Mastery at</p>
-            <FaLocationArrow
-            style={{color:'orangered'}} />
+          <p>Mastery at</p>
+          <FaLocationArrow style={{ color: "orangered" }} />
         </span>
-               
-               <img className="hero-img" src={Figma} alt='xd'/>
-               <img className="hero-img" src={xd} alt='xd'/>
-               {/* <img className="hero-img" src={aa} alt='xd'/>
+
+        <img className="hero-img" src={Figma} alt="xd" />
+        <img className="hero-img" src={xd} alt="xd" />
+        {/* <img className="hero-img" src={aa} alt='xd'/>
                <img className="hero-img" src={ap} alt='xd'/> */}
-               <img className="hero-img" src={gf} alt='xd'/>
-               <img className="hero-img" src={gd} alt='xd'/>
-               <img className="hero-img" src={notion} alt='xd'/>
-               
-            
-               {/* <img className="hero-img" src={Redux} alt='xd'/> 
+        <img className="hero-img" src={gf} alt="xd" />
+        <img className="hero-img" src={gd} alt="xd" />
+
+        {/* <img className="hero-img" src={Redux} alt='xd'/> 
                <img className="hero-img" src={Xd} alt='xd'/>  */}
-               {/* <img className="hero-img" src={CSS} alt='xd'/>
+        {/* <img className="hero-img" src={CSS} alt='xd'/>
                <img className="hero-img" src={Html} alt='xd'/>
                <img className="hero-img" src={js} alt='xd'/>
                <img className="hero-img" src={ReactJs} alt='xd'/>  */}
+      </div>
+      <div className="section-featured-works">
+        <br />
 
-           </div>
-      <div className='section-featured-works'>
-      <br />
-          
-            <br />
-            <br />
-        <div className='section-featured-works-div'>
-           
-            <h3>Featured Design Projects 
-                <FiArrowDownCircle 
-                style={{fontSize: '1.3em', marginLeft:'0.3em'}} /></h3>
+        <br />
+        <div className="section-featured-works-div">
+          <h3>
+            Featured Design Projects
+            <FiArrowDownCircle
+              style={{ fontSize: "1.3em", marginLeft: "0.3em" }}
+            />
+          </h3>
         </div>
-        <div className='section-works'>
-            <div className='section-image-and-content'
-           >
-                <img className='section-imge' src={image} alt='svg'/>
-                
-                <div className='section-works-contents'>
-                    <h4 className="section-works-contents-orange">Hydra Mobile App</h4>
-                 
-                </div>
-            </div>
-            <div
-             className='section-image-and-content'>
-                <img className='section-imge' src={svg} alt='svg'/>
-                <div className='section-works-contents'>
-                    <h4 className="section-works-contents-h4">Hydra Desktop App</h4>
-                 
-                </div>
-            </div>
-            <div className='section-image-and-content'
-            
-            >
-                <img className='section-imge' src={kiko} alt='svg'/> 
-                <div className='section-works-contents'>
-                    <h4 className="section-works-contents-blue">Kiko LLC Mobile App</h4>
-                 
-                </div>
-            </div>
+        <div className="section-works">
+          <div
+            className="section-image-and-content"
+            onClick={(e) => navigate("/hydra-mobile")}
+          >
+            <img className="section-imge" src={image} alt="svg" />
 
-
-            <div className='section-image-and-content'
-            >
-                <img className='section-imge' src={Alphabetz} alt='svg'/>
-                 
-                <div className='section-works-contents'>
-                <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
-
-                 
-                </div>
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-orange">
+                Hydra Mobile App
+              </h4>
             </div>
-            <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
-     
-            <div 
-                style={{
-                    height: 'auto',
-                    backgroundColor:'black',
-                    color:'white',
-                    border: 'none',
-                    justifyContent: "center",
-                    display: 'flex',
-                    flexDirection: 'column',
-                    textAlign:'center',
-                    alignItems:'center'
-                  
-                }}
-                
-                className='section-image-and-content'
-            >
-                {/* <img 
-                style={{
-                    fontSize: '2em',
-                   
-                  
-                }} src={notion} alt='svg'/> */}
-               
-                <h4 className="section-works-contents"
-                  
-                    style={{
-                    
-                        width: 'fit-content',
-                        textAlign:'center',
-                        padding:'0.2em 01em',
-                        borderRadius:'2em'
-
-                       
-                      
-                    }} >View More of my Projects in Notion</h4>
-
-                 
-             
+          </div>
+          <div
+            onClick={(e) => navigate("/hydra-web")}
+            className="section-image-and-content"
+          >
+            <img className="section-imge" src={svg} alt="svg" />
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-h4">Hydra Desktop App</h4>
             </div>
-            </a>
-            {/* <div className='section-image-and-content'
+          </div>
+          <div
+            className="section-image-and-content"
+            onClick={(e) => navigate("/kiko")}
+          >
+            <img className="section-imge" src={kiko} alt="svg" />
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-blue">
+                Kiko LLC Mobile App
+              </h4>
+            </div>
+          </div>
+
+          <div
+            className="section-image-and-content"
+            onClick={(e) => navigate("/alphabetz")}
+          >
+            <img className="section-imge" src={Alphabetz} alt="svg" />
+
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
+            </div>
+          </div>
+
+          {/* <div className='section-image-and-content'
              onClick={(e)=>{navigate('/nft')}}>
                 <img className='section-imge' src={Fleetar} alt='svg'/>
                 <div className='section-works-contents'>
@@ -233,15 +192,64 @@ const Hero = () => {
                 </div>
             </div> */}
         </div>
+      </div>
+
+      <br />
+      <br />
+     
+      <div
+        style={{
+          marginBottom: "-3em",
+        }}
+        className="section-featured-works-div"
+      >
+         <a href='https://www.behance.net/ibeneme'>
+
         
-    </div>
+        <h3>
+          <ImBehance2 />
+          View More Projects on Behance
+          <BsArrowUpRightCircle
+            style={{
+              fontSize: "1.3em",
 
-    <br />
-          
-            <br />
-    <div className='coding-div'>
+              marginLeft: "0.3em",
+            }}
+          />
+        </h3>
+        </a>
+      </div>
+    
+     
 
-    {/* <div className='section-featured-works-div'>
+      <div
+        style={{
+          marginBottom: "1em",
+        }}
+        className="section-featured-works-div"
+      >
+          <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
+    
+        <h3>
+          <SiNotion />
+          View More Projects on Notion
+          <BsArrowUpRightCircle
+            style={{
+              fontSize: "1.3em",
+
+              marginLeft: "0.3em",
+            }}
+          />
+        </h3>
+        </a>
+      </div>
+    
+      <br />
+
+
+
+      <div className="coding-div">
+        {/* <div className='section-featured-works-div'>
            
            <h3>Projects I wrote codes for
                <FiArrowDownCircle 
@@ -318,21 +326,20 @@ const Hero = () => {
             </div>
         </div>
     </a> */}
-    <br />  <br />  <br />
-    <div  className='black-div white'>
-        <h1>About Me</h1>
-        <p style={{marginTop:"-1em"}}>
-        I’m Ibeneme Ikenna Kenneth, a creative Product Designer & Collaborative Frontend Developer,
-        Passionate about building and implementing user-friendly and easy-to-use interfaces.
-        I'm a Well organized person, problem solver, strong team player with a high attention to detail.
-       Interested in working on innovative projects with positive people
+        <br /> <br />
+        <div className="black-div white">
+          <h1>About Me</h1>
+          <p style={{ marginTop: "-1em" }}>
+            I’m Ibeneme Ikenna Kenneth, a creative Product Designer &
+            Collaborative Frontend Developer, Passionate about building and
+            implementing user-friendly and easy-to-use interfaces. I'm a Well
+            organized person, problem solver, strong team player with a high
+            attention to detail. Interested in working on innovative projects
+            with positive people
+          </p>
 
-        </p>
-            
-        <h3
-        style={{marginTop:'1.9em'}}
-        >My Design Skills</h3>
-        <ul style={{marginTop:'-1em'}}>
+          <h3 style={{ marginTop: "1.9em" }}>My Design Skills</h3>
+          <ul style={{ marginTop: "-1em" }}>
             <li>User Research</li>
             <li>User Journey Mapping</li>
             <li>Wireframing</li>
@@ -341,38 +348,27 @@ const Hero = () => {
             <li>Prototyping</li>
             <li>Interaction Designing</li>
             <li>Proper Design handoff to Developers</li>
-        </ul>
+          </ul>
 
-        <h3
-        style={{marginTop:'1.9em'}}
-        >Tools I Use</h3>
-        <ul style={{marginTop:'-1em'}}>
+          <h3 style={{ marginTop: "1.9em" }}>Tools I Use</h3>
+          <ul style={{ marginTop: "-1em" }}>
             <li>Figma</li>
             <li>Figjam</li>
             <li>Adobe XD</li>
             <li>Invision</li>
             <li> Blender</li>
-    
-        </ul>
-        <br />
-        <br />
-        <button className='btn-cv'>
-            View My Resume
-        </button>
-        <br />
-        <br />
-        <img 
-       className="img-auto"
-       src={profile} alt='profile'/> 
-
-  
-  
-    </div>
-<div>
-
-<br />
-       <h3>Let's Connect</h3>
-{/*        
+          </ul>
+          <br />
+          <br />
+          <button className="btn-cv">View My Resume</button>
+          <br />
+          <br />
+          <img className="img-auto" src={profile} alt="profile" />
+        </div>
+        <div>
+          <br />
+          <h3>Let's Connect</h3>
+          {/*        
        <a href='https://twitter.com/ibeneme_ikenna'>
        <div className='details-me'>
         <h4>
@@ -395,29 +391,31 @@ const Hero = () => {
         </span>  </div>
         </a> */}
 
-       <a href='https://www.buymeacoffee.com/ibenemeikenna'>
-       <div className='details-me'>
-        <h4>
-        <SiBuymeacoffee  className='icon-arrows'/>
-         Buy Me a Coffee</h4>
-       <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrows' />
-      
-        </span>  </div>
-        </a>
+          <a href="https://www.buymeacoffee.com/ibenemeikenna">
+            <div className="details-me">
+              <h4>
+                <SiBuymeacoffee className="icon-arrows" />
+                Buy Me a Coffee
+              </h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
 
-        <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
-       <div className='details-me'>
-        <h4>
-        <RxNotionLogo className='icon-arrows'/>
-         View Notion</h4>
-       <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrows' />
-      
-        </span>  </div>
-        </a>
+          <a href="https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec">
+            <div className="details-me">
+              <h4>
+                <RxNotionLogo className="icon-arrows" />
+                View Notion
+              </h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
 
-        {/* <a href='https://github.com/Ibeneme'>
+          {/* <a href='https://github.com/Ibeneme'>
        <div className='details-me'>
         <h4>
         <BsGithub  className='icon-arrows'/>
@@ -429,18 +427,21 @@ const Hero = () => {
         </a>
  */}
 
-        <a href='Mailto:Ibenemeikenna2021@gmail.com'>
-       <div 
-       style={{color:'white', backgroundColor:'black'}} className='details-me blackkk'>
-        <h4>
-        <MdEmail  className='icon-arrows'/>
-         Send me a Mail</h4>
-       <span> 
-       <BsFillArrowUpRightCircleFill className='icon-arrows' />
-      
-        </span>  </div>
-        </a>
-        {/* <a href='https://wa.link/70sz29'>
+          <a href="Mailto:Ibenemeikenna2021@gmail.com">
+            <div
+              style={{ color: "white", backgroundColor: "black" }}
+              className="details-me blackkk"
+            >
+              <h4>
+                <MdEmail className="icon-arrows" />
+                Send me a Mail
+              </h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          {/* <a href='https://wa.link/70sz29'>
        <div className='details-me'>
         <h4>
         <IoLogoWhatsapp className='icon-arrows'/>
@@ -450,12 +451,11 @@ const Hero = () => {
       
         </span>  </div>
         </a>
- */}</div>
-    <br /> 
-    <div>
-       
-    </div>
-    {/* <div  className='black-div white'>
+ */}
+        </div>
+        <br />
+        <div></div>
+        {/* <div  className='black-div white'>
         <h1>Working Experience</h1>
         <h3> - 2023</h3>
         <p style={{marginTop:"-1em"}}>
@@ -493,31 +493,30 @@ const Hero = () => {
 
 
     </div> */}
-    <div>
-        
-       <div  style={{
-         backgroundColor:'black',
-         color:'white'}}
-       className='details-me blackk'>
-                <h5  className='details-meh'>
-                    
-                </h5>
-                <h6>@2023 Ibeneme Ikenna</h6>
-                <div>
-                <a href='https://github.com/Ibeneme'>
-                    <BsGithub  className='icon-arrow' />
-                    </a>
-                    <a href='https://twitter.com/ibeneme_ikenna'>
-                    <AiFillTwitterCircle  className='icon-arrow' />
-                    </a>
-                    <a href='https://www.linkedin.com/in/ibeneme'>
-                    <BsLinkedin className='icon-arrow' />
-                    </a>
-                </div>
+        <div>
+          <div
+            style={{
+              backgroundColor: "black",
+              color: "white",
+            }}
+            className="details-me blackk"
+          >
+          
+            <h6>@2023 Ibeneme Ikenna</h6>
+            <div>
+              <a href="https://github.com/Ibeneme">
+                <BsGithub className="icon-arrow" />
+              </a>
+              <a href="https://twitter.com/ibeneme_ikenna">
+                <AiFillTwitterCircle className="icon-arrow" />
+              </a>
+              <a href="https://www.linkedin.com/in/ibeneme">
+                <BsLinkedin className="icon-arrow" />
+              </a>
+            </div>
+          </div>
         </div>
-       
-    </div>
-   </div>
+      </div>
     </section>
   );
 };
