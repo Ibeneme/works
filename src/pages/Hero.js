@@ -3,9 +3,8 @@ import "./Hero.css";
 import { SiBuymeacoffee, SiNotion } from "react-icons/si";
 // import {IoLogoWhatsapp} from 'react-icons/io'
 import { MdEmail } from "react-icons/md";
-import { AiFillTwitterCircle,  } from "react-icons/ai";
 import { RxNotionLogo } from "react-icons/rx";
-import { BsGithub, BsLinkedin, BsArrowUpRightCircle } from "react-icons/bs";
+import { BsArrowUpRightCircle } from "react-icons/bs";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { ImBehance2 } from "react-icons/im";
 // import notion from './images/logos_notion-icon.png'
@@ -32,6 +31,8 @@ import gd from "./images/Google Docs.png";
 // import ap from './images/Adobe Photoshop.png'
 import xd from "./images/Adobe XD.png";
 import { useNavigate } from "react-router-dom";
+import landd from "./images/LANDING.png";
+import nfft from "./images/nftt.png";
 
 const Hero = () => {
   let navigate = useNavigate();
@@ -50,7 +51,7 @@ const Hero = () => {
           <div className="name">
             <h1>I'm Ikenna Ibeneme</h1>
             <p>
-              Product Designer I design beautiful User interfaces for best of
+             A Creative Product Designer, I design beautiful User interfaces for best of
               User experience
             </p>
             <button className="button-resume">View my Resume</button>
@@ -172,6 +173,24 @@ const Hero = () => {
 
             <div className="section-works-contents">
               <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
+            </div>
+          </div>
+          <div
+            onClick={(e) => navigate("/nft")}
+            className="section-image-and-content"
+          >
+            <img className="section-imge" src={nfft} alt="svg" />
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-h4">Fleetar Landing Page</h4>
+            </div>
+          </div>
+          <div
+            onClick={(e) => navigate("/landing")}
+            className="section-image-and-content"
+          >
+            <img className="section-imge" src={landd} alt="svg" />
+            <div className="section-works-contents">
+              <h4 className="section-works-contents-light"> Bird Web App</h4>
             </div>
           </div>
 
@@ -496,30 +515,9 @@ const Hero = () => {
 
 
     </div> */}
-        <div>
-          <div
-            style={{
-              backgroundColor: "black",
-              color: "white",
-            }}
-            className="details-me blackk"
-          >
-          
-            <h6>@2023 Ibeneme Ikenna</h6>
-            <div>
-              <a href="https://github.com/Ibeneme">
-                <BsGithub className="icon-arrow" />
-              </a>
-              <a href="https://twitter.com/ibeneme_ikenna">
-                <AiFillTwitterCircle className="icon-arrow" />
-              </a>
-              <a href="https://www.linkedin.com/in/ibeneme">
-                <BsLinkedin className="icon-arrow" />
-              </a>
-            </div>
-          </div>
-        </div>
+        
       </div>
+      
     </section>
   );
 };
