@@ -322,7 +322,12 @@ a{
         display: flex;
         gap: 1.5em;
         align-items: center;
+       
         justify-content: center;
+    }
+
+    .white{
+        display: flex;
     }
     .img-auto{
       
@@ -379,8 +384,10 @@ a{
         padding: 1.4em 6em;
         font-size: 1em;
     }
+    .white{
+        display: flex;
+    }
     .img-auto{
-   
         width: 100%;
         display: flex;
     }
