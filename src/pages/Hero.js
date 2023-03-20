@@ -31,8 +31,8 @@ import gd from "./images/Google Docs.png";
 // import ap from './images/Adobe Photoshop.png'
 import xd from "./images/Adobe XD.png";
 import { useNavigate } from "react-router-dom";
-import landd from "./images/LANDING.png";
-import nfft from "./images/nftt.png";
+// import landd from "./images/LANDING.png";
+// import nfft from "./images/nftt.png";
 
 const Hero = () => {
   let navigate = useNavigate();
@@ -142,6 +142,9 @@ const Hero = () => {
               <h4 className="section-works-contents-orange">
                 Hydra Mobile App
               </h4>
+              <p>A decentralized Social media mobile app,
+                that enables users to earn while interacting
+                with one another </p>
             </div>
           </div>
           <div
@@ -151,6 +154,9 @@ const Hero = () => {
             <img className="section-imge" src={svg} alt="svg" />
             <div className="section-works-contents">
               <h4 className="section-works-contents-h4">Hydra Desktop App</h4>
+              <p>A decentralized Social media website,
+                that enables users to earn while interacting
+                with one another </p>
             </div>
           </div>
           <div
@@ -162,6 +168,7 @@ const Hero = () => {
               <h4 className="section-works-contents-blue">
                 Kiko LLC Mobile App
               </h4>
+              <p>A software where users can find influencers for their products, projects, skits, events and more </p>
             </div>
           </div>
 
@@ -172,10 +179,12 @@ const Hero = () => {
             <img className="section-imge" src={Alphabetz} alt="svg" />
 
             <div className="section-works-contents">
+              
               <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
+               <p>Designs for a mobile application that enables users generate a resume, style a resume or use custom editable resume for free</p>
             </div>
           </div>
-          <div
+          {/* <div
             onClick={(e) => navigate("/nft")}
             className="section-image-and-content"
           >
@@ -192,7 +201,7 @@ const Hero = () => {
             <div className="section-works-contents">
               <h4 className="section-works-contents-light"> Bird Web App</h4>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className='section-image-and-content'
              onClick={(e)=>{navigate('/nft')}}>
