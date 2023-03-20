@@ -207,7 +207,8 @@ const Hero = () => {
 
         
         <h3>
-          <ImBehance2 />
+          <ImBehance2 
+          style={{marginRight:'0.3em'}}/>
           View More  on Behance
           <BsArrowUpRightCircle
             style={{
