@@ -7,12 +7,15 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 import {RxNotionLogo} from 'react-icons/rx'
 import {BsGithub, BsLinkedin} from 'react-icons/bs'
 import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
+import notion from './images/logos_notion-icon.png'
 //  import {MdDashboard} from 'react-icons/md'
 
- import CSS from './images/CSS3.png'
-  import Html from './images/Html 5.png'
- import js from './images/JavaScript.png'
-  import ReactJs from './images/React.png'
+//  import CSS from './images/CSS3.png'
+//   import Html from './images/Html 5.png'
+//  import js from './images/JavaScript.png'
+//   import ReactJs from './images/React.png'
+
+
  import {FiArrowDownCircle} from 'react-icons/fi' 
   import Figma from './images/Figma.png'
 import {FaLocationArrow} from 'react-icons/fa' 
@@ -21,6 +24,13 @@ import svg from './images/hydra-web.png'
 import Alphabetz from './images/alphab.png'
 import image from './images/hydra-mobile.png'
 import profile from './images/newwww.png'
+
+import gf from './images/Google Forms.png'
+import gd from './images/Google Docs.png'
+// import aa from './images/Adobe Animate.png'
+// import ap from './images/Adobe Photoshop.png'
+import xd from './images/Adobe XD.png'
+
 
 
 
@@ -42,8 +52,8 @@ const Hero = () => {
             </div>
             <div className="name">
                 <h1>I'm Ikenna Ibeneme</h1>
-                <p>Product Designer & Frontend Developer.
-                    <br /> I design beautiful User interfaces for best of User experience and i also build them to reality using Javascript</p>
+                <p>Product Designer
+                   I design beautiful User interfaces for best of User experience</p>
                 <button className="button-resume">View my Resume</button>
             </div>
              </div>
@@ -98,12 +108,20 @@ const Hero = () => {
         </span>
                
                <img className="hero-img" src={Figma} alt='xd'/>
+               <img className="hero-img" src={xd} alt='xd'/>
+               {/* <img className="hero-img" src={aa} alt='xd'/>
+               <img className="hero-img" src={ap} alt='xd'/> */}
+               <img className="hero-img" src={gf} alt='xd'/>
+               <img className="hero-img" src={gd} alt='xd'/>
+               <img className="hero-img" src={notion} alt='xd'/>
+               
+            
                {/* <img className="hero-img" src={Redux} alt='xd'/> 
                <img className="hero-img" src={Xd} alt='xd'/>  */}
-               <img className="hero-img" src={CSS} alt='xd'/>
+               {/* <img className="hero-img" src={CSS} alt='xd'/>
                <img className="hero-img" src={Html} alt='xd'/>
                <img className="hero-img" src={js} alt='xd'/>
-               <img className="hero-img" src={ReactJs} alt='xd'/> 
+               <img className="hero-img" src={ReactJs} alt='xd'/>  */}
 
            </div>
       <div className='section-featured-works'>
@@ -151,11 +169,53 @@ const Hero = () => {
                 <img className='section-imge' src={Alphabetz} alt='svg'/>
                  
                 <div className='section-works-contents'>
-                <h4 className="section-works-contents-light">Alphabetz Resume Generator</h4>
+                <h4 className="section-works-contents-light">Alphabetz Mobile</h4>
 
                  
                 </div>
             </div>
+            <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
+     
+            <div 
+                style={{
+                    height: 'auto',
+                    backgroundColor:'black',
+                    color:'white',
+                    border: 'none',
+                    justifyContent: "center",
+                    display: 'flex',
+                    flexDirection: 'column',
+                    textAlign:'center',
+                    alignItems:'center'
+                  
+                }}
+                
+                className='section-image-and-content'
+            >
+                {/* <img 
+                style={{
+                    fontSize: '2em',
+                   
+                  
+                }} src={notion} alt='svg'/> */}
+               
+                <h4 className="section-works-contents"
+                  
+                    style={{
+                    
+                        width: 'fit-content',
+                        textAlign:'center',
+                        padding:'0.2em 01em',
+                        borderRadius:'2em'
+
+                       
+                      
+                    }} >View More of my Projects in Notion</h4>
+
+                 
+             
+            </div>
+            </a>
             {/* <div className='section-image-and-content'
              onClick={(e)=>{navigate('/nft')}}>
                 <img className='section-imge' src={Fleetar} alt='svg'/>
@@ -181,7 +241,7 @@ const Hero = () => {
             <br />
     <div className='coding-div'>
 
-    <div className='section-featured-works-div'>
+    {/* <div className='section-featured-works-div'>
            
            <h3>Projects I wrote codes for
                <FiArrowDownCircle 
@@ -257,7 +317,7 @@ const Hero = () => {
                 }}> View Site<BsFillArrowUpRightCircleFill className='icon-arrow' /></p>
             </div>
         </div>
-    </a>
+    </a> */}
     <br />  <br />  <br />
     <div  className='black-div white'>
         <h1>About Me</h1>
@@ -268,9 +328,38 @@ const Hero = () => {
        Interested in working on innovative projects with positive people
 
         </p>
+            
+        <h3
+        style={{marginTop:'1.9em'}}
+        >My Design Skills</h3>
+        <ul style={{marginTop:'-1em'}}>
+            <li>User Research</li>
+            <li>User Journey Mapping</li>
+            <li>Wireframing</li>
+            <li>UI Designing</li>
+            <li>UX Designing</li>
+            <li>Prototyping</li>
+            <li>Interaction Designing</li>
+            <li>Proper Design handoff to Developers</li>
+        </ul>
+
+        <h3
+        style={{marginTop:'1.9em'}}
+        >Tools I Use</h3>
+        <ul style={{marginTop:'-1em'}}>
+            <li>Figma</li>
+            <li>Figjam</li>
+            <li>Adobe XD</li>
+            <li>Invision</li>
+            <li> Blender</li>
+    
+        </ul>
+        <br />
+        <br />
         <button className='btn-cv'>
             View My Resume
         </button>
+        <br />
         <br />
         <img 
        className="img-auto"
@@ -328,7 +417,7 @@ const Hero = () => {
         </span>  </div>
         </a>
 
-        <a href='https://github.com/Ibeneme'>
+        {/* <a href='https://github.com/Ibeneme'>
        <div className='details-me'>
         <h4>
         <BsGithub  className='icon-arrows'/>
@@ -338,7 +427,7 @@ const Hero = () => {
       
         </span>  </div>
         </a>
-
+ */}
 
         <a href='Mailto:Ibenemeikenna2021@gmail.com'>
        <div 
@@ -411,9 +500,9 @@ const Hero = () => {
          color:'white'}}
        className='details-me blackk'>
                 <h5  className='details-meh'>
-                    Website Built by Ibeneme Ikenna
+                    
                 </h5>
-                <h6>@2023 ibeneme.netlify.com</h6>
+                <h6>@2023 Ibeneme Ikenna</h6>
                 <div>
                 <a href='https://github.com/Ibeneme'>
                     <BsGithub  className='icon-arrow' />
