@@ -121,7 +121,7 @@ const Hero = () => {
                <img className="hero-img" src={ReactJs} alt='xd'/>  */}
       </div>
       <br/>
-      <div className="brief-on">
+      {/* <div className="brief-on">
         <h2>UX Design</h2>
         <p
         style={{ marginTop:'-1em'}}>
@@ -140,11 +140,11 @@ const Hero = () => {
             for all users</p>
 
 
-      </div>
+      </div> */}
       <div className="section-featured-works">
         <br />
 
-        <br />
+       
         <div className="section-featured-works-div">
           <h3>
             Featured Design Projects
@@ -337,7 +337,11 @@ const Hero = () => {
           <br />
           <br />
           <button className="btn-cv">
-          <BsFillArrowUpRightCircleFill className="icon-arrows lol" />
+          <BsFillArrowUpRightCircleFill 
+          style={{
+            marginRight:'0.5em'
+          }}
+          className="icon-arrows lol" />
           View My Resume
          </button>
           <br />

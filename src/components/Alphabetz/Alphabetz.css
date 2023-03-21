@@ -1,0 +1,31 @@
+.first-sectionz{
+    padding: 3em 12em;
+    background-color: #fff;
+   
+}
+.first-sectionz-p{
+    font-size: 0.84em;
+    margin-top: -0.7em;
+}
+
+.first-sectionz-divz{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media(max-width:1200px){
+    .first-sectionz{
+        padding: 3em 4em;
+       
+    }
+}
+
+@media(max-width:800px){
+    .first-sectionz{
+        padding: 3em 1em;
+       
+    }
+    .first-sectionz-divz{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
