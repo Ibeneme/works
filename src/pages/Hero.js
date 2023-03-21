@@ -282,15 +282,15 @@ const Hero = () => {
       <div className="coding-div">
       <h1>About Me</h1>
           <p style={{ marginTop: "-1em" }}>
-            I’m Ibeneme Ikenna Kenneth, a creative Product Designer &
-            Collaborative Frontend Developer, Passionate about building and
-            implementing user-friendly and easy-to-use interfaces. I'm a Well
+            I’m Ibeneme Ikenna Kenneth, a creative &
+            Collaborative Product Designer, Passionate about building user-friendly and easy-to-use interfaces. 
+            I'm a Well
             organized person, problem solver, strong team player with a high
             attention to detail. Interested in working on innovative projects
             with positive people
           </p>
 
-          <h3 style={{ marginTop: "1.3em" }}>My Design Skills</h3>
+          <h4 style={{ marginTop: "1.3em" }}>My Design Skills</h4>
           <ul style={{ marginTop: "-1em" }}>
             <li>User Research</li>
             <li>User Journey Mapping</li>
@@ -302,7 +302,7 @@ const Hero = () => {
             <li>Proper Design handoff to Developers</li>
           </ul>
 
-          <h3 style={{ marginTop: "1.3em" }}>Tools I Use</h3>
+          <h4 style={{ marginTop: "1.3em" }}>Tools I Use</h4>
           <ul style={{ marginTop: "-1em" }}>
             <li>Figma</li>
             <li>Figjam</li>
