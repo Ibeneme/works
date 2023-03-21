@@ -8,7 +8,13 @@
     height: auto; 
 }
 
-        
+    .coding-div{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        background-color: #fff;
+        border-radius: 1.2em;
+    }    
 .works-on{
     margin-top: 0.9em;
     background-color: #fff;
@@ -441,4 +447,21 @@ a{
         margin-top: 1em;
         font-size: 1.1em;
     }
+    .coding-div{
+        display: flex;
+        flex-direction: column;
+        padding: 1.4em;
+        background-color: #fff;
+        border-radius: 1.2em;
+    }  
+    .coding-div>p{
+       font-size: 0.84em;
+    }  
+    .coding-div>ul{
+        font-size: 0.84em;
+     }  
+
+     .section-works-contents{
+        font-size: 0.84em;
+     }
 }

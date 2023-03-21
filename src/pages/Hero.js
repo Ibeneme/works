@@ -280,6 +280,47 @@ const Hero = () => {
 
 
       <div className="coding-div">
+      <h1>About Me</h1>
+          <p style={{ marginTop: "-1em" }}>
+            I’m Ibeneme Ikenna Kenneth, a creative Product Designer &
+            Collaborative Frontend Developer, Passionate about building and
+            implementing user-friendly and easy-to-use interfaces. I'm a Well
+            organized person, problem solver, strong team player with a high
+            attention to detail. Interested in working on innovative projects
+            with positive people
+          </p>
+
+          <h3 style={{ marginTop: "1.3em" }}>My Design Skills</h3>
+          <ul style={{ marginTop: "-1em" }}>
+            <li>User Research</li>
+            <li>User Journey Mapping</li>
+            <li>Wireframing</li>
+            <li>UI Designing</li>
+            <li>UX Designing</li>
+            <li>Prototyping</li>
+            <li>Interaction Designing</li>
+            <li>Proper Design handoff to Developers</li>
+          </ul>
+
+          <h3 style={{ marginTop: "1.3em" }}>Tools I Use</h3>
+          <ul style={{ marginTop: "-1em" }}>
+            <li>Figma</li>
+            <li>Figjam</li>
+            <li>Adobe XD</li>
+            <li>Invision</li>
+            <li> Blender</li>
+          </ul>
+          <br />
+          <br />
+          <button className="btn-cv">View My Resume</button>
+          <br />
+          <br />
+          <img className="img-auto" src={profile} alt="profile" />
+        {/* <div className="black-div white">
+            
+          <img className="img-auto" src={profile} alt="profile" />
+        </div> */}
+       
         {/* <div className='section-featured-works-div'>
            
            <h3> I wrote codes for
@@ -358,46 +399,8 @@ const Hero = () => {
         </div>
     </a> */}
         <br /> <br />
-        <h1>About Me</h1>
-          <p style={{ marginTop: "-1em" }}>
-            I’m Ibeneme Ikenna Kenneth, a creative Product Designer &
-            Collaborative Frontend Developer, Passionate about building and
-            implementing user-friendly and easy-to-use interfaces. I'm a Well
-            organized person, problem solver, strong team player with a high
-            attention to detail. Interested in working on innovative projects
-            with positive people
-          </p>
-
-          <h3 style={{ marginTop: "1.9em" }}>My Design Skills</h3>
-          <ul style={{ marginTop: "-1em" }}>
-            <li>User Research</li>
-            <li>User Journey Mapping</li>
-            <li>Wireframing</li>
-            <li>UI Designing</li>
-            <li>UX Designing</li>
-            <li>Prototyping</li>
-            <li>Interaction Designing</li>
-            <li>Proper Design handoff to Developers</li>
-          </ul>
-
-          <h3 style={{ marginTop: "1.9em" }}>Tools I Use</h3>
-          <ul style={{ marginTop: "-1em" }}>
-            <li>Figma</li>
-            <li>Figjam</li>
-            <li>Adobe XD</li>
-            <li>Invision</li>
-            <li> Blender</li>
-          </ul>
-          <br />
-          <br />
-          <button className="btn-cv">View My Resume</button>
-          <br />
-          <br />
-        <div className="black-div white">
-       
-          <img className="img-auto" src={profile} alt="profile" />
-        </div>
-        <div>
+      
+       </div>
           <br />
           <h3>Let's Connect</h3>
           {/*        
@@ -484,9 +487,9 @@ const Hero = () => {
         </span>  </div>
         </a>
  */}
-        </div>
+   
         <br />
-        <div></div>
+        
         {/* <div  className='black-div white'>
         <h1>Working Experience</h1>
         <h3> - 2023</h3>
@@ -525,8 +528,7 @@ const Hero = () => {
 
 
     </div> */}
-        
-      </div>
+       
       
     </section>
   );
