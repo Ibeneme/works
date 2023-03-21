@@ -7,7 +7,16 @@
     background-color: #f4f4f4;
     height: auto; 
 }
+.coding-div>p{
+    font-size: 0.84em;
+ }  
+ .coding-div>ul{
+     font-size: 0.84em;
+  }  
 
+  .section-works-contents{
+     font-size: 0.84em;
+  }
     .coding-div{
         display: flex;
         flex-direction: column;
@@ -38,7 +47,7 @@
  
 }
 .works-on-span>p{
-    background-color: orangered;
+    background-color: #80139B;
     padding:0.3em 0.7em;
     color: white;
 }
@@ -56,7 +65,7 @@
 }
 
 .ikenna{
-    background-color: orangered;
+    background-color: #80139B;
     padding: 0.3em 1.4em;
     width: fit-content;
     border-radius: 23em;
@@ -80,14 +89,31 @@
 }
 
 .button-resume{
-    margin-top: 1em;
+    margin-top: 2.2em;
     margin-bottom: 2em;
     width:fit-content;
-    background-color: white;
-    border: 0.09em white solid;
-    border-radius: 0.8em ;
-    color: black;
-    padding: 1.4em 4em;
+    background-color: #fff;
+    font-family: poppins;
+    font-weight: bolder;
+    color: #80139B;
+    border-radius: 0.26em;
+    border: none;
+    transition: 2s;
+    display: flex;
+    align-items: center;
+    padding: 1.4em 2em;
+   
+    justify-content: space-between;
+    box-shadow:11px 11px #80139B;
+}
+
+.loll{
+    font-size: 92em;
+}
+.button-resume:hover{
+    border-radius: 99.26em;
+    box-shadow:none;
+  
 }
 .left-flex-hero{
     background-image: url('./images/WhatsApp\ Image\ 2023-03-18\ at\ 11.16\ 1.png') ;
@@ -242,8 +268,20 @@
 .btn-cv{
     background-color: black;
     color: white;
-    padding: 1em 4em;
-    border: none;
+    padding: 1.3em 1.6em;
+    border: 0.2em solid;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 3.8em;
+    width: fit-content;
+    font-family: poppins;
+}
+
+.lol{
+    margin-right: 0;
+    font-size: 3.3em;
 }
 .white{
     background-color: white;
@@ -379,14 +417,7 @@ a{
         border: none;
     }
     .button-resume{
-        margin-top: 1em;
-        margin-bottom: 2em;
-        width:fit-content;
-        background-color: white;
-        border: 0.09em white solid;
-        border-radius: 0.8em ;
-        color: black;
-        padding: 1.4em 6em;
+        padding: 1.4em 1.3em;
         font-size: 1em;
     }
     .white{
@@ -426,7 +457,7 @@ a{
         height: 2em;
     }
     .ikenna{
-        background-color: orangered;
+        background-color: #80139B;
         padding: 0.3em 1.4em;
         width: fit-content;
         border-radius: 23em;
@@ -439,11 +470,21 @@ a{
     .btn-cv{
         background-color: black;
         color: white;
-        padding: 1em 4em;
+        padding: 1em 1.3em;
         border: none;
-        width: 100%;
         margin-top: 1em;
         font-size: 1.1em;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        border-radius: 1.8em;
+        width: fit-content;
+        font-family: poppins;
+    }
+
+    .lol{
+        margin-right: 0;
+        font-size: 1.9em
     }
     .coding-div{
         display: flex;

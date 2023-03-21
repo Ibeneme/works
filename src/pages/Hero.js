@@ -39,7 +39,7 @@ const Hero = () => {
   return (
     <section className="first-section">
       <nav className="navbar-div">
-        <h4 className="ikenna">Ibeneme </h4>
+        <h4 className="ikenna">Product Designer </h4>
         {/* <h4 className="first-sliddo">My Resume</h4>*/}
       </nav>
 
@@ -54,7 +54,10 @@ const Hero = () => {
              A Creative Product Designer, I design beautiful User interfaces for best of
               User experience
             </p>
-            <button className="button-resume">View my Resume</button>
+            <button className="button-resume">
+            <BsFillArrowUpRightCircleFill className="icon-arrows loll" />
+            View my Resume
+            </button>
           </div>
         </div>
 
@@ -102,7 +105,7 @@ const Hero = () => {
       <div className="works-on">
         <span className="works-on-span">
           <p>Mastery at</p>
-          <FaLocationArrow style={{ color: "orangered" }} />
+          <FaLocationArrow style={{ color:'#80139B' }} />
         </span>
 
         <img className="hero-img" src={Figma} alt="xd" />
@@ -229,6 +232,7 @@ const Hero = () => {
       <div
         style={{
           marginBottom: "-3em",
+          
         }}
         className="section-featured-works-div"
       >
@@ -255,6 +259,7 @@ const Hero = () => {
       <div
         style={{
           marginBottom: "1em",
+          backgroundColor:'#80139B'
         }}
         className="section-featured-works-div"
       >
@@ -312,7 +317,10 @@ const Hero = () => {
           </ul>
           <br />
           <br />
-          <button className="btn-cv">View My Resume</button>
+          <button className="btn-cv">
+          <BsFillArrowUpRightCircleFill className="icon-arrows lol" />
+          View My Resume
+         </button>
           <br />
           <br />
           <img className="img-auto" src={profile} alt="profile" />
@@ -398,10 +406,11 @@ const Hero = () => {
             </div>
         </div>
     </a> */}
-        <br /> <br />
+        
       
        </div>
           <br />
+          <br /> <br />
           <h3>Let's Connect</h3>
           {/*        
        <a href='https://twitter.com/ibeneme_ikenna'>
