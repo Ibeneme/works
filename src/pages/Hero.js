@@ -54,9 +54,7 @@ const Hero = () => {
              A Creative Product Designer, I design beautiful User interfaces for best of
               User experience
             </p>
-            <button className="button-resume">
-            <BsFillArrowUpRightCircleFill className="icon-arrows loll" />
-            View my Resume
+            <button className="button-resume">View my Resume
             </button>
           </div>
         </div>

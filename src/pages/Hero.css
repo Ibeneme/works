@@ -89,31 +89,17 @@
 }
 
 .button-resume{
-    margin-top: 2.2em;
+    margin-top: 1em;
     margin-bottom: 2em;
     width:fit-content;
-    background-color: #fff;
+    background-color: white;
+    border: 0.09em white solid;
+    border-radius: 0.8em ;
+    color: black;
+    padding: 1.4em 4em;
     font-family: poppins;
-    font-weight: bolder;
-    color: #80139B;
-    border-radius: 0.26em;
-    border: none;
-    transition: 2s;
-    display: flex;
-    align-items: center;
-    padding: 1.4em 2em;
-   
-    justify-content: space-between;
-    box-shadow:11px 11px #80139B;
-}
+    font-weight: bold;
 
-.loll{
-    font-size: 92em;
-}
-.button-resume:hover{
-    border-radius: 99.26em;
-    box-shadow:none;
-  
 }
 .left-flex-hero{
     background-image: url('./images/WhatsApp\ Image\ 2023-03-18\ at\ 11.16\ 1.png') ;
@@ -269,7 +255,7 @@
     background-color: black;
     color: white;
     padding: 1.3em 1.6em;
-    border: 0.2em solid;
+    border: 0.2em;
     width: fit-content;
     display: flex;
     align-items: center;
@@ -417,7 +403,14 @@ a{
         border: none;
     }
     .button-resume{
-        padding: 1.4em 1.3em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        width:100%;
+        background-color: white;
+        border: 0.09em white solid;
+        border-radius: 0.8em ;
+        color: black;
+        padding: 1.4em 6em;
         font-size: 1em;
     }
     .white{
@@ -475,8 +468,9 @@ a{
         margin-top: 1em;
         font-size: 1.1em;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 0.5em;
+        gap: 01.4em;
         border-radius: 1.8em;
         width: fit-content;
         font-family: poppins;
