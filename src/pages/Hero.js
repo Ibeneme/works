@@ -54,8 +54,7 @@ const Hero = () => {
              A Creative Product Designer, I design beautiful User interfaces for best of
               User experience
             </p>
-            <button className="button-resume">View my Resume
-            </button>
+            <button className="button-resume">View my Resume</button>
           </div>
         </div>
 
@@ -100,6 +99,7 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
+      <br/>
       <div className="works-on">
         <span className="works-on-span">
           <p>Mastery at</p>
@@ -119,6 +119,27 @@ const Hero = () => {
                <img className="hero-img" src={Html} alt='xd'/>
                <img className="hero-img" src={js} alt='xd'/>
                <img className="hero-img" src={ReactJs} alt='xd'/>  */}
+      </div>
+      <br/>
+      <div className="brief-on">
+        <h2>UX Design</h2>
+        <p
+        style={{ marginTop:'-1em'}}>
+            I design user centered products that 
+            provide meaningful and relevant 
+            experiences to users, tailoring my creativity
+            towards users satisfaction.</p>
+
+
+        <br />
+        <h2>UI Design</h2>
+        <p
+        style={{ marginTop:'-1em'}}>
+            I design beauty on screens, pleasurable
+            visuals 
+            for all users</p>
+
+
       </div>
       <div className="section-featured-works">
         <br />

@@ -7,6 +7,18 @@
     background-color: #f4f4f4;
     height: auto; 
 }
+
+.brief-on{
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 2.4em 1.3em;
+
+}
+
+.brief-on>p{
+    font-size: 0.84em;
+
+}
 .coding-div>p{
     font-size: 0.84em;
  }  
@@ -459,7 +471,7 @@ a{
     .works-on-span>p{
         font-size: 1.3em;
     }
-
+    
     .btn-cv{
         background-color: black;
         color: white;
