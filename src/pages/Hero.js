@@ -4,29 +4,28 @@ import { SiBuymeacoffee, SiNotion } from "react-icons/si";
 // import {IoLogoWhatsapp} from 'react-icons/io'
 import { MdEmail } from "react-icons/md";
 import { RxNotionLogo } from "react-icons/rx";
-import { BsArrowUpRightCircle } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { ImBehance2 } from "react-icons/im";
-// import notion from './images/logos_notion-icon.png'
-//  import {MdDashboard} from 'react-icons/md'
+// import notion from "./images/logos_notion-icon.png";
 
-//  import CSS from './images/CSS3.png'
-//   import Html from './images/Html 5.png'
-//  import js from './images/JavaScript.png'
-//   import ReactJs from './images/React.png'
+import CSS from "./images/CSS3.png";
+import Html from "./images/Html 5.png";
+import js from "./images/JavaScript.png";
+import ReactJs from "./images/React.png";
 
 import { FiArrowDownCircle } from "react-icons/fi";
 import Figma from "./images/Figma.png";
-import { FaLocationArrow } from "react-icons/fa";
-import kiko from "./images/kiko llc.png";
-import svg from "./images/hydra-web.png";
-import Alphabetz from "./images/alphab.png";
-import image from "./images/hydra-mobile.png";
+import { FaGithubAlt, FaLocationArrow } from "react-icons/fa";
+// import kiko from "./images/kiko llc.png";
+// import svg from "./images/hydra-web.png";
+// import Alphabetz from "./images/alphab.png";
+// import image from "./images/hydra-mobile.png";
 import profile from "./images/newwww.png";
 // import not from './images/notion.png'
 // import BETT from './images/bEHANCE.png'
-import gf from "./images/Google Forms.png";
-import gd from "./images/Google Docs.png";
+// import gf from "./images/Google Forms.png";
+// import gd from "./images/Google Docs.png";
 // import aa from './images/Adobe Animate.png'
 // import ap from './images/Adobe Photoshop.png'
 import xd from "./images/Adobe XD.png";
@@ -39,10 +38,9 @@ const Hero = () => {
   return (
     <section className="first-section">
       <nav className="navbar-div">
-        <h4 className="ikenna">Product Designer </h4>
+        <h4 className="ikenna">Frontend Developer </h4>
         {/* <h4 className="first-sliddo">My Resume</h4>*/}
       </nav>
-
       <div className="hero-section-div">
         <div className="left-flex-hero">
           <div className="curves">
@@ -51,10 +49,24 @@ const Hero = () => {
           <div className="name">
             <h1>I'm Ikenna Ibeneme</h1>
             <p>
-             A Creative Product Designer, I design beautiful User interfaces for best of
-              User experience
+              A Creative Frontend Developer - React Js || JavaScript || Redux ||
+              Next js
             </p>
-            <button className="button-resume">View my Resume</button>
+            <a href="https://github.com/Ibeneme">
+              <button
+                style={{
+                  height: "50px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  borderRadius: "43em",
+                  textAlign: "left",
+                }}
+                className="button-resume"
+              >
+                View my Github
+              </button>
+            </a>
           </div>
         </div>
 
@@ -99,19 +111,23 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
-      <br/>
+      <br />
       <div className="works-on">
         <span className="works-on-span">
           <p>Mastery at</p>
-          <FaLocationArrow style={{ color:'#80139B' }} />
+          <FaLocationArrow style={{ color: "#80139B" }} />
         </span>
+        <img className="hero-img" src={CSS} alt="xd" />
+        <img className="hero-img" src={Html} alt="xd" />
+        <img className="hero-img" src={js} alt="xd" />
+        <img className="hero-img" src={ReactJs} alt="xd" />
 
-        <img className="hero-img" src={Figma} alt="xd" />
+        {/* <img className="hero-img" src={Figma} alt="xd" />
         <img className="hero-img" src={xd} alt="xd" />
         {/* <img className="hero-img" src={aa} alt='xd'/>
-               <img className="hero-img" src={ap} alt='xd'/> */}
+               <img className="hero-img" src={ap} alt='xd'/> 
         <img className="hero-img" src={gf} alt="xd" />
-        <img className="hero-img" src={gd} alt="xd" />
+        <img className="hero-img" src={gd} alt="xd" /> */}
 
         {/* <img className="hero-img" src={Redux} alt='xd'/> 
                <img className="hero-img" src={Xd} alt='xd'/>  */}
@@ -120,7 +136,7 @@ const Hero = () => {
                <img className="hero-img" src={js} alt='xd'/>
                <img className="hero-img" src={ReactJs} alt='xd'/>  */}
       </div>
-      <br/>
+      <br />
       {/* <div className="brief-on">
         <h2>UX Design</h2>
         <p
@@ -144,54 +160,130 @@ const Hero = () => {
       <div className="section-featured-works">
         <br />
 
-       
         <div className="section-featured-works-div">
           <h3>
-            Featured Design Projects
+            Featured Projects
             <FiArrowDownCircle
               style={{ fontSize: "1.3em", marginLeft: "0.3em" }}
             />
           </h3>
         </div>
+        
         <div className="section-works">
-          <div
-            className="section-image-and-content"
-            onClick={(e) => navigate("/hydra-mobile")}
-          >
-            <img className="section-imge" src={image} alt="svg" />
+          <a href="https://mono.co">
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                color: "white",
+              }}
+            >
+              <h4>Mono.co Landing Page - African Fintech</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          <a href="https://app.mono.co">
+            <div className="details-me"   style={{
+            backgroundColor: "black",
+            marginTop:'0em',
+            color: "white",
+          }}>
+              <h4>Mono.co Web App- African Fintech</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          <a href="https://acadaboo.com">
+            <div className="details-me"   style={{
+            backgroundColor: "black",
+            marginTop:'0em',
+            color: "white",
+          }}>
+              <h4>Acadaboo Landing Page - Nigeria Student Site</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          <a href="https://acadaboo.com/login">
+            <div className="details-me"   style={{
+            backgroundColor: "black",
+            marginTop:'0em',
+            color: "white",
+          }}>
+              <h4>Acadaboo Web Application - Nigeria Student Site</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          <a href="https://passcoder.io">
+            <div className="details-me"   style={{
+            backgroundColor: "black",
+            marginTop:'0em',
+            color: "white",
+          }}>
+              <h4>Passcoder Landing Page - Nigeria Identity Startup</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
 
+          <a href="https://shoppermans-ecommerce-react-store.vercel.app">
+            <div className="details-me"   style={{
+            backgroundColor: "black",
+            marginTop:'0em',
+            color: "white",
+          }}>
+              <h4>My Personal E-commerce Shopping Project</h4>
+              <span>
+                <BsFillArrowUpRightCircleFill className="icon-arrows" />
+              </span>{" "}
+            </div>
+          </a>
+          {/* <a href="https://mono.co" target="_blank" rel="noopener noreferrer">
+            <div className="section-image-and-content">
+              <div className="section-imge"></div>
+
+              <div className="section-works-contents">
+                <h3 style={{ color: "black" }}>Mono.com Website and Web App</h3>
+                <p></p>
+              </div>
+            </div>
+          </a>
+          <div className="section-image-and-content">
+            <iframe
+              className="iframes"
+              src="https://shoppermans-ecommerce-react-store.vercel.app"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              width="100%"
+              height="200px"
+            ></iframe>
             <div className="section-works-contents">
-              <h3
-              style={{marginBottom:'-0.7em'}}>
-                Hydra Mobile App
-              </h3>
-              <p>A decentralized Social media mobile app,
-                that enables users to earn while interacting
-                with one another </p>
+              <h3 style={{ marginBottom: "-0.7em" }}>Hydra Desktop App</h3>
             </div>
           </div>
-          <div
-            onClick={(e) => navigate("/hydra-web")}
-            className="section-image-and-content"
-          >
-            <img className="section-imge" src={svg} alt="svg" />
+          <div className="section-image-and-content">
+            <iframe
+              className="iframes"
+              src="https://shoppermans-ecommerce-react-store.vercel.app"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              width="100%"
+              height="200px"
+            ></iframe>
             <div className="section-works-contents">
-              <h3 style={{marginBottom:'-0.7em'}}>Hydra Desktop App</h3>
-              <p>A decentralized Social media website,
-                that enables users to earn while interacting
-                with one another </p>
-            </div>
-          </div>
-          <div
-            className="section-image-and-content"
-            onClick={(e) => navigate("/kiko")}
-          >
-            <img className="section-imge" src={kiko} alt="svg" />
-            <div className="section-works-contents">
-              <h3 style={{marginBottom:'-0.7em'}}>
-                Kiko LLC Mobile App
-              </h3>
-              <p>A software where users can find influencers for their products, projects, skits, events and more </p>
+              <h3 style={{ marginBottom: "-0.7em" }}>Kiko LLC Mobile App</h3>
+              <p></p>
             </div>
           </div>
 
@@ -202,11 +294,13 @@ const Hero = () => {
             <img className="section-imge" src={Alphabetz} alt="svg" />
 
             <div className="section-works-contents">
-              
-              <h3 style={{marginBottom:'-0.7em'}}>Alphabetz Mobile</h3>
-               <p>Designs for a mobile application that enables users generate a resume, style a resume or use custom editable resume for free</p>
+              <h3 style={{ marginBottom: "-0.7em" }}>Alphabetz Mobile</h3>
+              <p>
+                Designs for a mobile application that enables users generate a
+                resume, style a resume or use custom editable resume for free
+              </p>
             </div>
-          </div>
+          </div> */}
           {/* <div
             onClick={(e) => navigate("/nft")}
             className="section-image-and-content"
@@ -244,114 +338,80 @@ const Hero = () => {
             </div> */}
         </div>
       </div>
-
       <br />
       <br />
-     
-      <div
+      {/* <div
         style={{
           marginBottom: "-3em",
-          
         }}
         className="section-featured-works-div"
       >
-         <a href='https://www.behance.net/ibeneme'>
+        <a href="https://www.behance.net/ibeneme">
+          <h3>
+            <ImBehance2 style={{ marginRight: "0.7em" }} />
+            Behance Portfolio
+            <BsArrowUpRightCircle
+              style={{
+                fontSize: "1.3em",
 
-        
-        <h3>
-          <ImBehance2 
-          style={{marginRight:'0.7em'}}/>
-         Behance Portfolio
-          <BsArrowUpRightCircle
-            style={{
-              fontSize: "1.3em",
-
-              marginLeft: "0.3em",
-            }}
-          />
-        </h3>
+                marginLeft: "0.3em",
+              }}
+            />
+          </h3>
         </a>
       </div>
-    
-     
-
       <div
         style={{
           marginBottom: "1em",
-          backgroundColor:'#80139B'
+          backgroundColor: "#80139B",
         }}
         className="section-featured-works-div"
       >
-          <a href='https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec'>
-    
-        <h3>
-          <SiNotion
-          style={{marginRight:'0.7em'}} />
-         Notion Portfolio
-          <BsArrowUpRightCircle
-            style={{
-              fontSize: "1.3em",
+        <a href="https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec">
+          <h3>
+            <SiNotion style={{ marginRight: "0.7em" }} />
+            Notion Portfolio
+            <BsArrowUpRightCircle
+              style={{
+                fontSize: "1.3em",
 
-              marginLeft: "0.3em",
-            }}
-          />
-        </h3>
+                marginLeft: "0.3em",
+              }}
+            />
+          </h3>
         </a>
-      </div>
-    
+      </div> */}
       <br />
-
-
-
       <div className="coding-div">
-      <h1>About Me</h1>
-          <p style={{ marginTop: "-1em" }}>
-            I’m Ibeneme Ikenna Kenneth, a creative &
-            Collaborative Product Designer, Passionate about building user-friendly and easy-to-use interfaces. 
-            I'm a Well
-            organized person, problem solver, strong team player with a high
-            attention to detail. Interested in working on innovative projects
-            with positive people
-          </p>
+        <h1>About Me</h1>
+        <p style={{ marginTop: "-1em" }}>
+          I’m Ibeneme Ikenna Kenneth, a creative & Collaborative Frontend
+          Developer seasoned in Javascript and Javascript Libraries ( React Js
+          || Redux || Next Js )
+          <br /> <br />
+          Passionate about building user-friendly and easy-to-use interfaces.
+          I'm a Well organized person, problem solver, strong team player with a
+          high attention to detail. Interested in working on innovative projects
+          with positive people
+        </p>
 
-          <h4 style={{ marginTop: "1.3em" }}>My Design Skills</h4>
-          <ul style={{ marginTop: "-1em" }}>
-            <li>User Research</li>
-            <li>User Journey Mapping</li>
-            <li>Wireframing</li>
-            <li>UI Designing</li>
-            <li>UX Designing</li>
-            <li>Prototyping</li>
-            <li>Interaction Designing</li>
-            <li>Proper Design handoff to Developers</li>
-          </ul>
+        <h4 style={{ marginTop: "1.3em" }}>Languages and Libraries I Use</h4>
+        <ul style={{ marginTop: "-1em" }}>
+          <li>React Js</li>
+          <li>Redux and Redux Toolkit</li>
+          <li>Next Js</li>
+          <li>JavaScript</li>
+          <li>Tailwind and Bootstrap</li>
+          <li>Html & CSS</li>
+        </ul>
 
-          <h4 style={{ marginTop: "1.3em" }}>Tools I Use</h4>
-          <ul style={{ marginTop: "-1em" }}>
-            <li>Figma</li>
-            <li>Figjam</li>
-            <li>Adobe XD</li>
-            <li>Invision</li>
-            <li> Blender</li>
-          </ul>
-          <br />
-          <br />
-          <button className="btn-cv">
-          <BsFillArrowUpRightCircleFill 
-          style={{
-            marginRight:'0.5em'
-          }}
-          className="icon-arrows lol" />
-          View My Resume
-         </button>
-          <br />
-          <br />
-          <img className="img-auto" src={profile} alt="profile" />
+        <br />
+        <img className="img-auto" src={profile} alt="profile" />
         {/* <div className="black-div white">
             
           <img className="img-auto" src={profile} alt="profile" />
         </div> */}
-       
+
         {/* <div className='section-featured-works-div'>
            
            <h3> I wrote codes for
@@ -429,13 +489,11 @@ const Hero = () => {
             </div>
         </div>
     </a> */}
-        
-      
-       </div>
-          <br />
-          <br /> <br />
-          <h3>Let's Connect</h3>
-          {/*        
+      </div>
+      <br />
+      <br /> <br />
+      <h3>Let's Connect</h3>
+      {/*        
        <a href='https://twitter.com/ibeneme_ikenna'>
        <div className='details-me'>
         <h4>
@@ -457,32 +515,29 @@ const Hero = () => {
       
         </span>  </div>
         </a> */}
-
-          <a href="https://www.buymeacoffee.com/ibenemeikenna">
-            <div className="details-me">
-              <h4>
-                <SiBuymeacoffee className="icon-arrows" />
-                Buy Me a Coffee
-              </h4>
-              <span>
-                <BsFillArrowUpRightCircleFill className="icon-arrows" />
-              </span>{" "}
-            </div>
-          </a>
-
-          <a href="https://ikenna.notion.site/PRODUCT-DESIGNER-9924274e335842609eaf114c3a1bdaec">
-            <div className="details-me">
-              <h4>
-                <RxNotionLogo className="icon-arrows" />
-                View Notion
-              </h4>
-              <span>
-                <BsFillArrowUpRightCircleFill className="icon-arrows" />
-              </span>{" "}
-            </div>
-          </a>
-
-          {/* <a href='https://github.com/Ibeneme'>
+      <a href="https://www.buymeacoffee.com/ibenemeikenna">
+        <div className="details-me">
+          <h4>
+            <SiBuymeacoffee className="icon-arrows" />
+            Buy Me a Coffee
+          </h4>
+          <span>
+            <BsFillArrowUpRightCircleFill className="icon-arrows" />
+          </span>{" "}
+        </div>
+      </a>
+      <a href="https://github.com/Ibeneme">
+        <div className="details-me">
+          <h4>
+            <BsGithub className="icon-arrows" />
+            View my Github
+          </h4>
+          <span>
+            <BsFillArrowUpRightCircleFill className="icon-arrows" />
+          </span>{" "}
+        </div>
+      </a>
+      {/* <a href='https://github.com/Ibeneme'>
        <div className='details-me'>
         <h4>
         <BsGithub  className='icon-arrows'/>
@@ -493,22 +548,21 @@ const Hero = () => {
         </span>  </div>
         </a>
  */}
-
-          <a href="Mailto:Ibenemeikenna2021@gmail.com">
-            <div
-              style={{ color: "white", backgroundColor: "black" }}
-              className="details-me blackkk"
-            >
-              <h4>
-                <MdEmail className="icon-arrows" />
-                Send me a Mail
-              </h4>
-              <span>
-                <BsFillArrowUpRightCircleFill className="icon-arrows" />
-              </span>{" "}
-            </div>
-          </a>
-          {/* <a href='https://wa.link/70sz29'>
+      <a href="Mailto:Ibenemeikenna2021@gmail.com">
+        <div
+          style={{ color: "white", backgroundColor: "black" }}
+          className="details-me blackkk"
+        >
+          <h4>
+            <MdEmail className="icon-arrows" />
+            Send me a Mail
+          </h4>
+          <span>
+            <BsFillArrowUpRightCircleFill className="icon-arrows" />
+          </span>{" "}
+        </div>
+      </a>
+      {/* <a href='https://wa.link/70sz29'>
        <div className='details-me'>
         <h4>
         <IoLogoWhatsapp className='icon-arrows'/>
@@ -519,49 +573,49 @@ const Hero = () => {
         </span>  </div>
         </a>
  */}
-   
-        <br />
-        
-        {/* <div  className='black-div white'>
+      <br />
+      <div
+        className="black-div white"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          paddingTop: "-16em",
+        }}
+      >
         <h1>Working Experience</h1>
         <h3> - 2023</h3>
-        <p style={{marginTop:"-1em"}}>
-            Product Designer || Frontend Developer || Product Manager at Monetyze - Remote
-            <br />
-        <p>(January 2023 - March 2023)</p>
-     </p>
+        <p style={{ marginTop: "-1em" }}>
+          Frontend Developer || Product Designer at Antigravitygroup - Hybrid
+          <br />
+          <p>(April 2023 - Recent)</p>
+        </p>
         <h3> - 2023</h3>
-        <p style={{marginTop:"-1em"}}>
-            Product Designer & Frontend Developer at Passcoder.io - Remote
-            <br />
-        <p>(January 2023 - March 2023)</p>
-     </p>
+        <p style={{ marginTop: "-1em" }}>
+          Frontend Developer || Product Manager at Monetyze - Remote
+          <br />
+          <p>(January 2023 - June 2023)</p>
+        </p>
+        <h3> - 2022</h3>
+        <p style={{ marginTop: "-1em" }}>
+          Frontend Developer at Passcoder.io - Remote
+          <br />
+          <p>(January 2022 - March 2023)</p>
+        </p>
 
-<h3> - 2022</h3>
-        <p style={{marginTop:"-1em"}}>
-            Frontend Developer at Hydra.io - Remote
-            <br />
-        <p>(December 2022 - March 2023)</p>
-     </p>
+        <h3> - 2021</h3>
+        <p style={{ marginTop: "-1em" }}>
+          Frontend Developer at Hydra.io - Remote
+          <br />
+          <p>(December 2021 - August 2022)</p>
+        </p>
 
-     <h3> - 2022</h3>
-        <p style={{marginTop:"-1em"}}>
-            Product Designer at Kiko LLC - Remote
-            <br />
-        <p>(November 2022 - Recent)</p>
-     </p>
-   
-     <h3> - 2021</h3>
-        <p style={{marginTop:"-1em"}}>
-            Product Designer at The Roothub - Hybrid
-            <br />
-        <p>(November 2021 - November 2022)</p>
-     </p>
-
-
-    </div> */}
-       
-      
+        <h3> - 2021</h3>
+        <p style={{ marginTop: "-1em" }}>
+          Frontend Developer at Kiko LLC - Remote
+          <br />
+          <p>(November 2021 - March 2022)</p>
+        </p>
+      </div>
     </section>
   );
 };
